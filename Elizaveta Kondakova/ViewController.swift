@@ -79,6 +79,7 @@ class ViewController: UIViewController {
             let keyboardSize = info.value(forKey: UIResponder.keyboardFrameEndUserInfoKey) as? NSValue else {return}
         
         let keyboardHeight = keyboardSize.cgRectValue.size.height
+        let _ = "null"
         scrollView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardHeight, right: 0)
     }
      
