@@ -13,6 +13,7 @@
 		6E92B34B2366402100C2C042 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B34A2366402100C2C042 /* GroupsCell.swift */; };
 		6E92B34D23664AF800C2C042 /* MyFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B34C23664AF800C2C042 /* MyFriendsController.swift */; };
 		6E92B34F23664B2C00C2C042 /* MyFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B34E23664B2C00C2C042 /* MyFriendsCell.swift */; };
+		6E92B35123664D2100C2C042 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E92B35023664D2100C2C042 /* .gitignore */; };
 		6EE2D8052358EE4100ABD603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2D8042358EE4100ABD603 /* AppDelegate.swift */; };
 		6EE2D8072358EE4100ABD603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2D8062358EE4100ABD603 /* SceneDelegate.swift */; };
 		6EE2D8092358EE4100ABD603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2D8082358EE4100ABD603 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		6E92B34A2366402100C2C042 /* GroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
 		6E92B34C23664AF800C2C042 /* MyFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsController.swift; sourceTree = "<group>"; };
 		6E92B34E23664B2C00C2C042 /* MyFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsCell.swift; sourceTree = "<group>"; };
+		6E92B35023664D2100C2C042 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6EE2D8012358EE4100ABD603 /* Elizaveta Kondakova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elizaveta Kondakova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE2D8042358EE4100ABD603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE2D8062358EE4100ABD603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				6EE2D80D2358EE4200ABD603 /* Assets.xcassets */,
 				6EE2D80F2358EE4200ABD603 /* LaunchScreen.storyboard */,
 				6EE2D8122358EE4200ABD603 /* Info.plist */,
+				6E92B35023664D2100C2C042 /* .gitignore */,
 			);
 			path = "Elizaveta Kondakova";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E92B35123664D2100C2C042 /* .gitignore in Resources */,
 				6EE2D8112358EE4200ABD603 /* LaunchScreen.storyboard in Resources */,
 				6EE2D80E2358EE4200ABD603 /* Assets.xcassets in Resources */,
 				6EE2D80C2358EE4100ABD603 /* Main.storyboard in Resources */,
