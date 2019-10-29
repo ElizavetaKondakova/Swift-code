@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6E05231F235F9A5100210C9F /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E05231E235F9A5100210C9F /* UIViewController+ext.swift */; };
+		6E456AC02368CE920049A35B /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E456ABF2368CE920049A35B /* Friends.swift */; };
+		6E456AC22368D8860049A35B /* PhotoGalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E456AC12368D8860049A35B /* PhotoGalleryController.swift */; };
+		6E456AC42368D8D70049A35B /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E456AC32368D8D70049A35B /* PhotoCell.swift */; };
+		6E5229F32367853100B8D012 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5229F22367853100B8D012 /* Group.swift */; };
 		6E92B3472366392300C2C042 /* MyGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B3462366392300C2C042 /* MyGroupController.swift */; };
 		6E92B3492366393D00C2C042 /* AllGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B3482366393D00C2C042 /* AllGroupController.swift */; };
 		6E92B34B2366402100C2C042 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B34A2366402100C2C042 /* GroupsCell.swift */; };
@@ -24,6 +28,10 @@
 
 /* Begin PBXFileReference section */
 		6E05231E235F9A5100210C9F /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		6E456ABF2368CE920049A35B /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		6E456AC12368D8860049A35B /* PhotoGalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryController.swift; sourceTree = "<group>"; };
+		6E456AC32368D8D70049A35B /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		6E5229F22367853100B8D012 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		6E92B3462366392300C2C042 /* MyGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupController.swift; sourceTree = "<group>"; };
 		6E92B3482366393D00C2C042 /* AllGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupController.swift; sourceTree = "<group>"; };
 		6E92B34A2366402100C2C042 /* GroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
@@ -51,6 +59,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E456AC52368E5040049A35B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E456AC12368D8860049A35B /* PhotoGalleryController.swift */,
+				6EE2D8082358EE4100ABD603 /* ViewController.swift */,
+				6E92B34C23664AF800C2C042 /* MyFriendsController.swift */,
+				6E92B3462366392300C2C042 /* MyGroupController.swift */,
+				6E92B3482366393D00C2C042 /* AllGroupController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E456AC62368E53F0049A35B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E456AC32368D8D70049A35B /* PhotoCell.swift */,
+				6E92B34E23664B2C00C2C042 /* MyFriendsCell.swift */,
+				6E92B34A2366402100C2C042 /* GroupsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E456AC72368E5730049A35B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E5229F22367853100B8D012 /* Group.swift */,
+				6E456ABF2368CE920049A35B /* Friends.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E456AC82368E5BF0049A35B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2D80A2358EE4100ABD603 /* Main.storyboard */,
+				6EE2D80D2358EE4200ABD603 /* Assets.xcassets */,
+				6EE2D80F2358EE4200ABD603 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6E456AC92368E65B0049A35B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6E05231E235F9A5100210C9F /* UIViewController+ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		6EE2D7F82358EE4100ABD603 = {
 			isa = PBXGroup;
 			children = (
@@ -72,16 +129,11 @@
 			children = (
 				6EE2D8042358EE4100ABD603 /* AppDelegate.swift */,
 				6EE2D8062358EE4100ABD603 /* SceneDelegate.swift */,
-				6E05231E235F9A5100210C9F /* UIViewController+ext.swift */,
-				6EE2D8082358EE4100ABD603 /* ViewController.swift */,
-				6E92B34C23664AF800C2C042 /* MyFriendsController.swift */,
-				6E92B34E23664B2C00C2C042 /* MyFriendsCell.swift */,
-				6E92B3462366392300C2C042 /* MyGroupController.swift */,
-				6E92B34A2366402100C2C042 /* GroupsCell.swift */,
-				6E92B3482366393D00C2C042 /* AllGroupController.swift */,
-				6EE2D80A2358EE4100ABD603 /* Main.storyboard */,
-				6EE2D80D2358EE4200ABD603 /* Assets.xcassets */,
-				6EE2D80F2358EE4200ABD603 /* LaunchScreen.storyboard */,
+				6E456AC92368E65B0049A35B /* Helpers */,
+				6E456AC72368E5730049A35B /* Model */,
+				6E456AC62368E53F0049A35B /* View */,
+				6E456AC52368E5040049A35B /* Controller */,
+				6E456AC82368E5BF0049A35B /* Resource */,
 				6EE2D8122358EE4200ABD603 /* Info.plist */,
 				6E92B35023664D2100C2C042 /* .gitignore */,
 			);
@@ -163,10 +215,14 @@
 				6EE2D8092358EE4100ABD603 /* ViewController.swift in Sources */,
 				6E92B34D23664AF800C2C042 /* MyFriendsController.swift in Sources */,
 				6EE2D8052358EE4100ABD603 /* AppDelegate.swift in Sources */,
+				6E456AC02368CE920049A35B /* Friends.swift in Sources */,
+				6E5229F32367853100B8D012 /* Group.swift in Sources */,
 				6E05231F235F9A5100210C9F /* UIViewController+ext.swift in Sources */,
+				6E456AC42368D8D70049A35B /* PhotoCell.swift in Sources */,
 				6E92B34F23664B2C00C2C042 /* MyFriendsCell.swift in Sources */,
 				6E92B3472366392300C2C042 /* MyGroupController.swift in Sources */,
 				6EE2D8072358EE4100ABD603 /* SceneDelegate.swift in Sources */,
+				6E456AC22368D8860049A35B /* PhotoGalleryController.swift in Sources */,
 				6E92B34B2366402100C2C042 /* GroupsCell.swift in Sources */,
 				6E92B3492366393D00C2C042 /* AllGroupController.swift in Sources */,
 			);
